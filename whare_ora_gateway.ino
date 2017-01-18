@@ -114,7 +114,7 @@ void loop()
 //  checkInclusionFinished();
   
   if (commandComplete) {
-    // A command wass issued from serial interface
+    // A command was issued from serial interface
     // We will now try to send it to the actuator
     parseAndSend(gw, inputString);
     commandComplete = false;  
